@@ -1,0 +1,818 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-05T10:01:30.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1632000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navigating homepage of amazon.com",
+        "description": "",
+        "id": "create-account-on-amazon;navigating-homepage-of-amazon.com",
+        "after": [
+          {
+            "result": {
+              "duration": 619000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4554000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"amazon_url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage should display",
+            "match": {
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.homepage_should_display()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-05T10:01:37.496Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1149000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Going to create an account page",
+        "description": "",
+        "id": "create-account-on-amazon;going-to-create-an-account-page",
+        "after": [
+          {
+            "result": {
+              "duration": 636000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3548000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigates to \"amazon_url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should hover over to the \"Hello, Sing in Account \u0026 Lists\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello, Sing in Account \u0026 Lists\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_should_hover_over_to_the_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "hits to \"Start Here\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Start Here\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_to_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "title should change to \"Amazon Registration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon Registration\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.title_should_change_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the header should be \"Create account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create account\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.the_header_should_be_Create_account(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-05T10:01:43.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Creating amazon account with regular way",
+        "description": "",
+        "id": "create-account-on-amazon;creating-amazon-account-with-regular-way;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to \"amazon_url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should hover over to the \"Hello, Sing in Account \u0026 Lists\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello, Sing in Account \u0026 Lists\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_should_hover_over_to_the_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 828000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "hits to \"Start Here\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Start Here\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_to_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enters \"Ramiz\" to Your Name input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ramiz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Your_Name_input_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enters \"ramizKaraeski@gmail.com\" to Email input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramizKaraeski@gmail.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Email_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enters \"gucBizdenGelirYegen\" to Password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gucBizdenGelirYegen\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "enters \"gucBizdenGelirYegen\" to re-enter password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gucBizdenGelirYegen\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_re_enter_password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "hits the \"Create your Amazon account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create your Amazon account\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the title changed to \"Authentication required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication required\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.the_title_changed_to_(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-05T10:01:51.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Creating amazon account with regular way",
+        "description": "",
+        "id": "create-account-on-amazon;creating-amazon-account-with-regular-way;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 630000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2779000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to \"amazon_url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should hover over to the \"Hello, Sing in Account \u0026 Lists\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello, Sing in Account \u0026 Lists\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_should_hover_over_to_the_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 973000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "hits to \"Start Here\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Start Here\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_to_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enters \"Polat\" to Your Name input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Polat\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Your_Name_input_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enters \"polatAleemdar@hotmail.com\" to Email input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"polatAleemdar@hotmail.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Email_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enters \"sonunuDusunenKahramanOlamaz\" to Password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sonunuDusunenKahramanOlamaz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "enters \"sonunuDusunenKahramanOlamaz\" to re-enter password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sonunuDusunenKahramanOlamaz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_re_enter_password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1800000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "hits the \"Create your Amazon account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create your Amazon account\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the title changed to \"Authentication required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication required\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.the_title_changed_to_(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-05T10:01:59.824Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Creating amazon account with regular way",
+        "description": "",
+        "id": "create-account-on-amazon;creating-amazon-account-with-regular-way;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 629000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2020000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to \"amazon_url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should hover over to the \"Hello, Sing in Account \u0026 Lists\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello, Sing in Account \u0026 Lists\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.user_should_hover_over_to_the_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "hits to \"Start Here\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Start Here\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_to_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enters \"Cengiz\" to Your Name input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cengiz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Your_Name_input_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enters \"cengizAtay@gmail.com\" to Email input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cengizAtay@gmail.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Email_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enters \"benCengizAtayMahallenizinKaraKedisi\" to Password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"benCengizAtayMahallenizinKaraKedisi\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_Password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "enters \"benCengizAtayMahallenizinKaraKedisi\" to re-enter password input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"benCengizAtayMahallenizinKaraKedisi\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.enters_to_re_enter_password_input_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1451000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "hits the \"Create your Amazon account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create your Amazon account\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.hits_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the title changed to \"Authentication required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Authentication required\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.amazon.step_definitions.CreatAccountStepDefs.the_title_changed_to_(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Create account on amazon",
+    "description": "",
+    "id": "create-account-on-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreatAccount.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
